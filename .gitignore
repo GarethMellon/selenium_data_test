@@ -2,3 +2,4 @@
 drivers
 *.exe
 env.py
+__pycache__/

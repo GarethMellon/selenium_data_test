@@ -8,7 +8,7 @@ chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--incognito")
 driver = webdriver.Chrome('.\\drivers\\chromedriver.exe', options=chrome_options)
 if os.path.exists("env.py"):
-    driver.get('http://127.0.0.1:5000/')
+    driver.get('http://127.0.0.1:5000/'
 
 coll = mongo_connect()
 
